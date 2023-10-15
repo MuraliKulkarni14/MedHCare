@@ -1,0 +1,21 @@
+ #editprofileimg{
+    width: 70%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+#editgrid{
+    margin-top: 50px;
+    margin-right: auto;
+    padding: 50px;
+}
+
+#editinfocard{
+    max-width: 100%;
+    height:fit-content;
+    margin-top: 2%;
+    margin-left: 15%;
+    padding: 15px;
+    color: black;
+    font-size: large;
+}

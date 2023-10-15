@@ -1,0 +1,40 @@
+
+.slider {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .carousel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+    background: black;
+  }
+  
+.carousel-item{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%; /* Ensure the carousel items take full height */
+  }
+  
+.carousel-item img{
+    width: 100%; /* Ensure the image fits within the carousel */
+    max-height: 100%; /* Ensure the image fits within the carousel */
+  }
+/* .carousel-caption{
+    
+} */

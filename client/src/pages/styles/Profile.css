@@ -1,0 +1,28 @@
+#profileimg{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+#gridcont{
+    margin-top: 50px;
+    margin-left: 2%;
+    text-align: left;
+}
+
+#infocard{
+    width: 50%;
+    height:fit-content;
+    margin-top: 2%;
+    margin-right: 10%;
+    padding: 25px;
+    color: black;
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+#details2{
+    margin-top: -1%;
+}
+
