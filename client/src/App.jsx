@@ -30,7 +30,8 @@ const App = () => {
   },[]);
 
   return (
-    <div >
+    <>
+    <div className='content-container'>
       <Router>
         <UserContext.Provider value = {{user,setUser}}>
           <ToastContainer />
@@ -55,8 +56,12 @@ const App = () => {
           </Routes>
         </UserContext.Provider>
       </Router>
+      </div>
+      <footer className='footer--pin'>
       <Footer />
-    </div>
+      </footer>
+    
+    </>
   );
 };
 

@@ -52,19 +52,6 @@ const Home = () =>{
           <div class="card-container" id="herotext">
             <div class="row">
               <div class="col-sm">
-                <h1>Tracking Your Medical Data Made Simple</h1>
-                <br />
-                <p>We Use Cutting Edge Technology To Develop Tools That Help Us Keep Track Of Our Medication and Keep a Note Of Changes in Our Health</p>
-                <Button id="medtrackbutton">Medication Tracker</Button>
-              </div>
-              <div className="col" id="medtrack">
-                <img id="trackimg"src={Medtracker} alt="Med Tracker" />
-              </div>
-            </div>
-          </div>
-          <div class="card-container" id="herotext">
-            <div class="row">
-              <div class="col-sm">
                 <h1>Storing All Your Health Records Made Possible</h1>
                 <br />
                 <p>Store All Your Health Documents in One Place</p>
